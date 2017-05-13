@@ -1,12 +1,15 @@
 {
   "name": "simple-bp3d-node",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "An algorithm for 3d bin packing",
   "main": "bp3d.test.js",
   "scripts": {
     "lint": "eslint bp3d.js"
-
   },
+  "keywords": [
+    "packing",
+    "3d"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:car-tetris/simple-bp3d-node.git"

@@ -1,3 +1,10 @@
+### Inspiration
+
+This package is a rewrite of https://github.com/gedex/bp3d. Though it only supports
+one bin, and not multiple.
+
+### Example
+```
 const bp3d = require('../bp3d.js');
 
 const items = [
@@ -17,3 +24,4 @@ const {
 
 console.log('bin', bin);
 console.log('unpacked', unpacked);
+```
