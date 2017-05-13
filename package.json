@@ -1,6 +1,6 @@
 {
   "name": "simple-bp3d-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An algorithm for 3d bin packing",
   "main": "./bp3d.js",
   "scripts": {
