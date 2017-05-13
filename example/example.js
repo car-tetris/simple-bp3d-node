@@ -1,4 +1,4 @@
-const bp3d = require('../bp3d.js');
+const bp3d = require('../src/bp3d.js');
 
 const items = [
   { h: 2, w: 2, d: 1, pos: {}, rot: bp3d.ROTATION.HWD },
