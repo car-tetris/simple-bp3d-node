@@ -143,15 +143,24 @@ function compareItem (i1, i2) {
   return vol1 - vol2;
 }
 
+function volume (dim) {
+  return dim.h * dim.w * dim.d;
+}
+
 function pack (bin, _items) {
   unpacked.length = 0;
   const items = _items.sort(compareItem);
 
   packToBin(bin, items);
 
+  const loadedPackageVol = bin.items.map(item => volume(item)).reduce((prev, curr) => prev + curr);
+
+  const load = volume(bin) - loadedPackageVol;
+
   return {
     bin: bin,
     items: items,
+    load: load,
     unpacked: unpacked
   };
 }

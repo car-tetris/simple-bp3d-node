@@ -1,8 +1,8 @@
 {
   "name": "simple-bp3d-node",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "An algorithm for 3d bin packing",
-  "main": "bp3d.test.js",
+  "main": "./bp3d.js",
   "scripts": {
     "lint": "eslint bp3d.js"
   },
@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git@github.com:car-tetris/simple-bp3d-node.git"
   },
+  "files": [
+    "./bp3d.js"
+  ],
   "author": "Julian Tölle <julian.toelle97@gmail.com>",
   "license": "ISC",
   "devDependencies": {
