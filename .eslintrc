@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "standard"],
+  "rules": {
+    "semi": ["error", "always"],
+    "standard/object-curly-even-spacing": ["error", "always"],
+    "strict": ["error", "never"],
+    "no-labels": ["warn", { "allowLoop": true }]
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "describe": false,
+    "before": false,
+    "it": false
+  }
+}

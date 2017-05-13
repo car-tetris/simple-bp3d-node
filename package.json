@@ -1,0 +1,25 @@
+{
+  "name": "simple-bp3d-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bp3d.test.js",
+  "scripts": {
+    "lint": "eslint bp3d.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:car-tetris/simple-bp3d-node.git"
+  },
+  "author": "Julian Tölle <julian.toelle97@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.0",
+    "babel-eslint": "^7.1.1"
+  }
+}
