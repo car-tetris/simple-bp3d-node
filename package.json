@@ -1,8 +1,8 @@
 {
   "name": "simple-bp3d-node",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An algorithm for 3d bin packing",
-  "main": "./dist/bp3d.js",
+  "main": "dist/bp3d.js",
   "scripts": {
     "lint": "eslint src/bp3d.js",
     "build": "babel ./src -d dist"
@@ -16,7 +16,7 @@
     "url": "git@github.com:car-tetris/simple-bp3d-node.git"
   },
   "files": [
-    "./dist/bp3d.js"
+    "dist/"
   ],
   "babel": {
     "presets": [
