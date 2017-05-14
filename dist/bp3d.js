@@ -154,7 +154,7 @@ function pack(bin, _items) {
     return volume(item);
   }).reduce(function (prev, curr) {
     return prev + curr;
-  });
+  }, 0);
 
   var load = loadedPackageVol / volume(bin);
 

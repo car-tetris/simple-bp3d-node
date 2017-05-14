@@ -153,7 +153,7 @@ function pack (bin, _items) {
 
   packToBin(bin, items);
 
-  const loadedPackageVol = bin.items.map(item => volume(item)).reduce((prev, curr) => prev + curr);
+  const loadedPackageVol = bin.items.map(item => volume(item)).reduce((prev, curr) => prev + curr, 0);
 
   const load = loadedPackageVol / volume(bin);
 
